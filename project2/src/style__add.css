@@ -1,0 +1,123 @@
+*{
+	padding: 0;
+	margin: 0;
+	font-family: 'Poppins', sans-serif;
+}
+body{
+	background:url(./background.jpg) repeat;
+	background-size: cover;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin: 0;
+
+}
+.Registeration-form{
+	width:350px;
+	height: 2px;
+	top:10%;
+	left:50%;
+	color: black;
+	transform: translate(-50%,-50%);
+	position: absolute;
+	color: wheat;
+
+}
+.Registeration-form h1{
+	font-size:30px;
+	color: rgba(225, 13, 13, 0.75);
+	text-align:  center;
+	margin: 1px 0;
+    
+
+}
+.Registeration-form label{
+	font-size: 20px;
+	margin: 3px 0;
+}
+.Registeration-form input{
+	border: 0;
+	background: darkturquoise;
+	display: block;
+	margin: 1px auto;
+	text-align: center;
+	border: 2px solid #3498bd;
+	padding-top: 1px;
+	width: 50vh;
+	color:black;
+	border-radius: 20px;
+	outline: auto;
+	transition: 0.25s;
+}
+.Registeration-form button{
+	font-size: 18px;
+	font-weight: bold;
+	background: none;
+	margin-top: 5px;
+	padding: 10px 15px;
+	border-radius: 10px;
+	border:0;
+}
+.Registeration-form input[type="reset"]{
+	font-size: 18px;
+	background: none;
+	font-weight: bold;
+	transition: none;
+	color: red;
+	margin-top: 5px;
+	margin-left: 35%;
+	padding: 10px 15px;
+	width: 30%;
+	border-radius: 25px;
+	border:0;
+	margin-bottom: 20px;
+}
+/* .Registeration-form input[type="reset"]:hover::before{
+	background: linear-gradient(90deg, #03a9f4, #f441a5, #ffeb3b, #03a9f4);
+	background-size: 400%;
+	border-radius: 35px;
+}  */
+ .Registeration-form input{
+	
+	border: none;
+	color: #000000;
+	width: 19em;
+	height: 2em;
+	line-height: 0em;
+	text-align: center;
+	background: linear-gradient(90deg, #03a9f4, #f441a5, #ffeb3b, #03a9f4);
+	background-size: 300%;
+	border-radius: 20px;
+	cursor: pointer;
+	z-index: 1;
+  }
+   .Registeration-form input:hover {
+	animation: animation 8s linear infinite;
+	border: none;
+  } 
+    @keyframes animation {
+	0% {
+	  background-position: 0%;
+	}
+	100% {
+	  background-position: 400%;
+	}
+  } 
+  
+   .Registeration-form input:before {
+	content: "";
+	top: -5px;
+	left: -5px;
+	right: -5px;
+	bottom: -5px;
+	z-index: -1;
+	background: linear-gradient(90deg, #03a9f4, #f441a5, #ffeb3b, #03a9f4);
+	background-size: 200%;
+	border-radius: 25px;
+	transition: 1s;
+  } 
+  .form-group span{
+    font-size: 12px;
+    text-align: center;
+  }
+   
